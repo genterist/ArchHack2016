@@ -2,7 +2,10 @@ var express = require('express');
 var app = express();
 var mysql = require("mysql");
 var watson = require('watson-developer-cloud');
+var bodyParser = require('body-parser');
 
+// Create application/x-www-form-urlencoded parser
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 var toneAnalyzer = watson.tone_analyzer({
   url: 'https://gateway.watsonplatform.net/tone-analyzer/api/',
@@ -28,7 +31,8 @@ con.connect(function(err){
   console.log('Connection established');
 });
 
-app.post('/api/tone', function(req, res, next) {
+app.post('/api/tone', urlencodedParser,function(req, res, next) {
+  console.log(req);
   toneAnalyzer.tone(req.body, function(err, data) {
     if (err) {
       return next(err);
