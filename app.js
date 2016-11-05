@@ -4,6 +4,8 @@ var mysql = require("mysql");
 var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
+var path = require('path');
+app.use(express.static(__dirname + '/views'));
 
 // Create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
@@ -46,7 +48,15 @@ app.get('/api/tone', urlencodedParser,function(req, res, next) {
   res.send("I am here. But yet too far.");
 });
 
-app.get("/",function(req,res){
+app.get("/", function(req,res){
+  res.sendFile('index.html');
+});
+
+app.get("/about", function(req,res){
+  res.sendFile(__dirname + '/views' + '/about.html');
+});
+
+app.get("/getPatientDetails",function(req,res){
 	con.query('SELECT * from patient', function(err, rows, fields) {
 	con.end();
 	  if (!err){
