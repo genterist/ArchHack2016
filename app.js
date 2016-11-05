@@ -3,6 +3,7 @@ var app = express();
 var mysql = require("mysql");
 var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
+var MongoClient = require('mongodb').MongoClient;
 
 // Create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
@@ -41,6 +42,10 @@ app.post('/api/tone', urlencodedParser,function(req, res, next) {
   });
 });
 
+app.get('/api/tone', urlencodedParser,function(req, res, next) {
+  res.send("I am here. But yet too far.");
+});
+
 app.get("/",function(req,res){
 	con.query('SELECT * from patient', function(err, rows, fields) {
 	con.end();
@@ -54,7 +59,6 @@ app.get("/",function(req,res){
 });
 
 app.get('/demo', function (req, res) {
-	resp = "";
 	con.query('SELECT * FROM patient',function(err,rows){
 	  	for (var i = 0; i < rows.length; i++) {
 	  		resp += rows[i].name;

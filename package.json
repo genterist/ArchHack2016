@@ -4,7 +4,8 @@
   "description": "ArchHack Aopp",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start-production": "node app.js",
+    "start": "webpack-dev-server --hot"
   },
   "author": "Aditya",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
+    "mongodb": "^2.2.11",
     "multer": "^1.2.0",
     "mysql": "^2.12.0",
     "watson-developer-cloud": "^2.8.1"
