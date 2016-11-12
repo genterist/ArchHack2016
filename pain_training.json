@@ -1,1 +1,787 @@
-{"name":"Pain","created":"2016-11-05T16:31:19.817Z","intents":[{"intent":"abdominal","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:47:59.416Z","examples":[{"text":"i feel deep pain in my abdomen","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"i feel like i got stabbed in the stomach","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"i feel pain near my stomach","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"i have a piercing pain in my belly button","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"i have a severe pain in my stomach","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"i have a severe stomach ache","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"i have pain in my abs","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"my abs always hurt","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"my abs hurt","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"my belly really hurts","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"my naval really hurts","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"there is constant pain in my abdomen","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"},{"text":"there is pulsing pain near my naval","created":"2016-11-05T18:25:55.736Z","updated":"2016-11-05T18:25:55.736Z"}],"description":null},{"intent":"back_pain","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:38:38.907Z","examples":[{"text":"i cant bend over","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"i have back pain","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"i have chronic back pain","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"i strained my back","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"it hurts to bend over","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"it hurts to lie down","created":"2016-11-05T16:38:38.907Z","updated":"2016-11-05T16:38:38.907Z"},{"text":"my back aches","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"my back hurts","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"my back is sore","created":"2016-11-05T16:36:27.261Z","updated":"2016-11-05T16:36:27.261Z"},{"text":"my lower spine hurts","created":"2016-11-05T16:37:08.109Z","updated":"2016-11-05T16:37:08.109Z"}],"description":null},{"intent":"good","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z","examples":[{"text":"alright","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"fantastic","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"good","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"great","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"i feel ok","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"not bad","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"not too bad","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"really good","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"},{"text":"terrific","created":"2016-11-05T19:04:20.256Z","updated":"2016-11-05T19:04:20.256Z"}],"description":null},{"intent":"kidney_stone","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:31:03.169Z","examples":[{"text":"i cannot go to the restroom","created":"2016-11-05T18:31:03.169Z","updated":"2016-11-05T18:31:03.169Z"},{"text":"i cannot urinate","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"i cant go to the bathroom","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"i cant pee","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"i feel intense side pain","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"i feel waves of side pain","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"it burns when i go to the bathroom","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"it burns when i pee","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"it burns when i urinate","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"it hurts when i pee","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"my kidney hurts","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"my side hurts","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"there is blood in my pee","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"},{"text":"there is blood in my urine","created":"2016-11-05T18:14:44.419Z","updated":"2016-11-05T18:14:44.419Z"}],"description":null},{"intent":"no","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:59.582Z","examples":[{"text":"i do not have pain","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:18.878Z"},{"text":"i do not hurt","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:18.878Z"},{"text":"it doesn't","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:18.878Z"},{"text":"it doesn't hurt","created":"2016-11-05T16:49:54.895Z","updated":"2016-11-05T16:49:54.895Z"},{"text":"no","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:18.878Z"},{"text":"no i does not","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:18.878Z"},{"text":"nope","created":"2016-11-05T16:49:18.878Z","updated":"2016-11-05T16:49:18.878Z"},{"text":"stop asking","created":"2016-11-05T16:49:59.582Z","updated":"2016-11-05T16:49:59.582Z"}],"description":null},{"intent":"yes","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:49:47.702Z","examples":[{"text":"i hurt a lot","created":"2016-11-05T16:49:24.567Z","updated":"2016-11-05T16:49:24.567Z"},{"text":"it does","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"},{"text":"it really hurts","created":"2016-11-05T16:49:47.702Z","updated":"2016-11-05T16:49:47.702Z"},{"text":"uh huh","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"},{"text":"yeah","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"},{"text":"yep","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"},{"text":"yes","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"},{"text":"yes it does","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"},{"text":"yup","created":"2016-11-05T16:48:46.004Z","updated":"2016-11-05T16:48:46.004Z"}],"description":null}],"updated":"2016-11-05T20:08:18.315Z","entities":[],"language":"en","metadata":null,"description":"Conversation flow that diagnoses different possible ailments","dialog_nodes":[{"go_to":null,"output":{"text":"Are you feeling a strong pain in or near your stomach?"},"parent":null,"context":null,"created":"2016-11-05T18:42:50.020Z","metadata":null,"conditions":"#abdominal","description":null,"dialog_node":"node_22_1478371371243","previous_sibling":"node_15_1478370428585"},{"go_to":null,"output":{"text":"Are you feeling pain near your kidney, or when you urinate?"},"parent":null,"context":null,"created":"2016-11-05T18:27:07.409Z","metadata":null,"conditions":"#kidney_stone","description":null,"dialog_node":"node_15_1478370428585","previous_sibling":"node_37_1478376422471"},{"go_to":null,"output":{"text":"Does this pain come in waves and fluctuate in intensity?"},"parent":"node_15_1478370428585","context":null,"created":"2016-11-05T18:27:40.661Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_16_1478370461793","previous_sibling":null},{"go_to":null,"output":{"text":"Do you currently have, or feel like you have, a fever?"},"parent":"node_8_1478369030538","context":null,"created":"2016-11-05T18:04:43.155Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_10_1478369084322","previous_sibling":null},{"go_to":null,"output":{"text":"Do you have back pain?"},"parent":null,"context":null,"created":"2016-11-05T16:36:37.365Z","metadata":null,"conditions":"#back_pain","description":null,"dialog_node":"node_1_1478363798421","previous_sibling":null},{"go_to":null,"output":{"text":"Do you have numbness in your lower legs?"},"parent":"node_4_1478368899227","context":null,"created":"2016-11-05T18:01:56.763Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_5_1478368917917","previous_sibling":null},{"go_to":null,"output":{"text":"Glad to hear it, have a good day!"},"parent":null,"context":null,"created":"2016-11-05T20:07:02.286Z","metadata":null,"conditions":"#good","description":null,"dialog_node":"node_37_1478376422471","previous_sibling":"node_35_1478375428743"},{"go_to":null,"output":{"text":"Have you been experiencing weight loss recently?"},"parent":"node_5_1478368917917","context":null,"created":"2016-11-05T18:03:49.374Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_8_1478369030538","previous_sibling":null},{"go_to":null,"output":{"text":"Have you had this pain for six or more weeks?"},"parent":"node_2_1478364476488","context":null,"created":"2016-11-05T18:01:38.096Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_4_1478368899227","previous_sibling":null},{"go_to":null,"output":{"text":"Hi. How are you feeling today?"},"parent":null,"context":{"default_counter":0},"created":"2016-11-05T19:50:29.016Z","metadata":null,"conditions":"conversation_start","description":null,"dialog_node":"node_35_1478375428743","previous_sibling":"node_1_1478363798421"},{"go_to":null,"output":{"text":"If you experience a fever or any symptoms associated with a fever, let me know immediately."},"parent":"node_10_1478369084322","context":null,"created":"2016-11-05T18:06:35.322Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_13_1478369196497","previous_sibling":"node_12_1478369173706"},{"go_to":null,"output":{"text":"Is it difficult and painful for you to urinate, even a small amount?"},"parent":"node_16_1478370461793","context":null,"created":"2016-11-05T18:28:18.636Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_18_1478370499729","previous_sibling":null},{"go_to":null,"output":{"text":"Is there also a deep, constant pain in or near your side?"},"parent":"node_23_1478371433986","context":null,"created":"2016-11-05T18:44:23.253Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_25_1478371464420","previous_sibling":null},{"go_to":null,"output":{"text":"Is there a pulsating pain near your belly button?"},"parent":"node_22_1478371371243","context":null,"created":"2016-11-05T18:43:52.851Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_23_1478371433986","previous_sibling":null},{"go_to":null,"output":{"text":"Is your back pain more severe at night?"},"parent":"node_1_1478363798421","context":null,"created":"2016-11-05T16:47:55.438Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_2_1478364476488","previous_sibling":null},{"go_to":null,"output":{"text":"Let me know if the pain gets more severe or doesn't go away."},"parent":"node_16_1478370461793","context":null,"created":"2016-11-05T18:28:20.008Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_19_1478370501201","previous_sibling":"node_18_1478370499729"},{"go_to":null,"output":{"text":"Let me know if your back pain continues for six or more weeks."},"parent":"node_2_1478364476488","context":null,"created":"2016-11-05T18:01:59.263Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_6_1478368920436","previous_sibling":"node_4_1478368899227"},{"go_to":null,"output":{"text":"Oh, ok"},"parent":"node_1_1478363798421","context":null,"created":"2016-11-05T18:01:28.079Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_3_1478368889123","previous_sibling":"node_2_1478364476488"},{"go_to":null,"output":{"text":"Oh, ok"},"parent":"node_15_1478370428585","context":null,"created":"2016-11-05T18:27:42.332Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_17_1478370463521","previous_sibling":"node_16_1478370461793"},{"go_to":null,"output":{"text":"Oh, ok"},"parent":"node_22_1478371371243","context":null,"created":"2016-11-05T18:43:54.089Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_24_1478371435306","previous_sibling":"node_23_1478371433986"},{"go_to":null,"output":{"text":"Please keep me updated on your back pain if it continues."},"parent":"node_4_1478368899227","context":null,"created":"2016-11-05T18:03:17.625Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_7_1478368998706","previous_sibling":"node_5_1478368917917"},{"go_to":null,"output":{"text":"Please keep me updated on your back pain if it continues."},"parent":"node_5_1478368917917","context":null,"created":"2016-11-05T18:04:07.535Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_9_1478369048610","previous_sibling":"node_8_1478369030538"},{"go_to":null,"output":{"text":"Please let me know if that pain continues for more than a few hours."},"parent":"node_25_1478371464420","context":null,"created":"2016-11-05T18:45:17.163Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_27_1478371518298","previous_sibling":"node_28_1478371521386"},{"go_to":null,"output":{"text":"Please let me know if the pain does not go away in a few hours."},"parent":"node_24_1478371435306","context":null,"created":"2016-11-05T18:44:25.482Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_26_1478371466674","previous_sibling":null},{"go_to":null,"output":{"text":"Please let me know if you begin to have trouble urinating."},"parent":"node_18_1478370499729","context":null,"created":"2016-11-05T18:29:14.688Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_21_1478370555888","previous_sibling":"node_20_1478370554784"},{"go_to":null,"output":{"text":"Please let me know immediately if you begin experiencing weight loss."},"parent":"node_8_1478369030538","context":null,"created":"2016-11-05T18:05:20.167Z","metadata":null,"conditions":"#no","description":null,"dialog_node":"node_11_1478369121202","previous_sibling":"node_10_1478369084322"},{"go_to":null,"output":{"text":"You may have a serious medical condition. I am going to contact your primary care provider."},"parent":"node_10_1478369084322","context":null,"created":"2016-11-05T18:06:12.625Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_12_1478369173706","previous_sibling":null},{"go_to":null,"output":{"text":"You may have a severe medical condition. I am going to contact your primary care provider."},"parent":"node_25_1478371464420","context":null,"created":"2016-11-05T18:45:20.194Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_28_1478371521386","previous_sibling":null},{"go_to":null,"output":{"text":"You may have kidney stones. I am going to contact your primary care provider."},"parent":"node_18_1478370499729","context":null,"created":"2016-11-05T18:29:13.665Z","metadata":null,"conditions":"#yes","description":null,"dialog_node":"node_20_1478370554784","previous_sibling":null}],"workspace_id":"de9730c6-1b76-4d89-a928-d38b669e5dbc"}
+{
+   "name":"Pain",
+   "created":"2016-11-05T16:31:19.817Z",
+   "intents":[
+      {
+         "intent":"abdominal",
+         "created":"2016-11-05T18:25:55.736Z",
+         "updated":"2016-11-05T18:47:59.416Z",
+         "examples":[
+            {
+               "text":"i feel deep pain in my abdomen",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"i feel like i got stabbed in the stomach",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"i feel pain near my stomach",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"i have a piercing pain in my belly button",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"i have a severe pain in my stomach",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"i have a severe stomach ache",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"i have pain in my abs",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"my abs always hurt",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"my abs hurt",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"my belly really hurts",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"my naval really hurts",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"there is constant pain in my abdomen",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            },
+            {
+               "text":"there is pulsing pain near my naval",
+               "created":"2016-11-05T18:25:55.736Z",
+               "updated":"2016-11-05T18:25:55.736Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"back_pain",
+         "created":"2016-11-05T16:36:27.261Z",
+         "updated":"2016-11-05T16:38:38.907Z",
+         "examples":[
+            {
+               "text":"i cant bend over",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"i have back pain",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"i have chronic back pain",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"i strained my back",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"it hurts to bend over",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"it hurts to lie down",
+               "created":"2016-11-05T16:38:38.907Z",
+               "updated":"2016-11-05T16:38:38.907Z"
+            },
+            {
+               "text":"my back aches",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"my back hurts",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"my back is sore",
+               "created":"2016-11-05T16:36:27.261Z",
+               "updated":"2016-11-05T16:36:27.261Z"
+            },
+            {
+               "text":"my lower spine hurts",
+               "created":"2016-11-05T16:37:08.109Z",
+               "updated":"2016-11-05T16:37:08.109Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"good",
+         "created":"2016-11-05T19:04:20.256Z",
+         "updated":"2016-11-05T19:04:20.256Z",
+         "examples":[
+            {
+               "text":"alright",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"fantastic",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"good",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"great",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"i feel ok",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"not bad",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"not too bad",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"really good",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            },
+            {
+               "text":"terrific",
+               "created":"2016-11-05T19:04:20.256Z",
+               "updated":"2016-11-05T19:04:20.256Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"kidney_stone",
+         "created":"2016-11-05T18:14:44.419Z",
+         "updated":"2016-11-05T18:31:03.169Z",
+         "examples":[
+            {
+               "text":"i cannot go to the restroom",
+               "created":"2016-11-05T18:31:03.169Z",
+               "updated":"2016-11-05T18:31:03.169Z"
+            },
+            {
+               "text":"i cannot urinate",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"i cant go to the bathroom",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"i cant pee",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"i feel intense side pain",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"i feel waves of side pain",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"it burns when i go to the bathroom",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"it burns when i pee",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"it burns when i urinate",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"it hurts when i pee",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"my kidney hurts",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"my side hurts",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"there is blood in my pee",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            },
+            {
+               "text":"there is blood in my urine",
+               "created":"2016-11-05T18:14:44.419Z",
+               "updated":"2016-11-05T18:14:44.419Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"no",
+         "created":"2016-11-05T16:49:18.878Z",
+         "updated":"2016-11-05T16:49:59.582Z",
+         "examples":[
+            {
+               "text":"i do not have pain",
+               "created":"2016-11-05T16:49:18.878Z",
+               "updated":"2016-11-05T16:49:18.878Z"
+            },
+            {
+               "text":"i do not hurt",
+               "created":"2016-11-05T16:49:18.878Z",
+               "updated":"2016-11-05T16:49:18.878Z"
+            },
+            {
+               "text":"it doesn't",
+               "created":"2016-11-05T16:49:18.878Z",
+               "updated":"2016-11-05T16:49:18.878Z"
+            },
+            {
+               "text":"it doesn't hurt",
+               "created":"2016-11-05T16:49:54.895Z",
+               "updated":"2016-11-05T16:49:54.895Z"
+            },
+            {
+               "text":"no",
+               "created":"2016-11-05T16:49:18.878Z",
+               "updated":"2016-11-05T16:49:18.878Z"
+            },
+            {
+               "text":"no i does not",
+               "created":"2016-11-05T16:49:18.878Z",
+               "updated":"2016-11-05T16:49:18.878Z"
+            },
+            {
+               "text":"nope",
+               "created":"2016-11-05T16:49:18.878Z",
+               "updated":"2016-11-05T16:49:18.878Z"
+            },
+            {
+               "text":"stop asking",
+               "created":"2016-11-05T16:49:59.582Z",
+               "updated":"2016-11-05T16:49:59.582Z"
+            }
+         ],
+         "description":null
+      },
+      {
+         "intent":"yes",
+         "created":"2016-11-05T16:48:46.004Z",
+         "updated":"2016-11-05T16:49:47.702Z",
+         "examples":[
+            {
+               "text":"i hurt a lot",
+               "created":"2016-11-05T16:49:24.567Z",
+               "updated":"2016-11-05T16:49:24.567Z"
+            },
+            {
+               "text":"it does",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            },
+            {
+               "text":"it really hurts",
+               "created":"2016-11-05T16:49:47.702Z",
+               "updated":"2016-11-05T16:49:47.702Z"
+            },
+            {
+               "text":"uh huh",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            },
+            {
+               "text":"yeah",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            },
+            {
+               "text":"yep",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            },
+            {
+               "text":"yes",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            },
+            {
+               "text":"yes it does",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            },
+            {
+               "text":"yup",
+               "created":"2016-11-05T16:48:46.004Z",
+               "updated":"2016-11-05T16:48:46.004Z"
+            }
+         ],
+         "description":null
+      }
+   ],
+   "updated":"2016-11-05T20:08:18.315Z",
+   "entities":[
+
+   ],
+   "language":"en",
+   "metadata":null,
+   "description":"Conversation flow that diagnoses different possible ailments",
+   "dialog_nodes":[
+      {
+         "go_to":null,
+         "output":{
+            "text":"Are you feeling a strong pain in or near your stomach?"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2016-11-05T18:42:50.020Z",
+         "metadata":null,
+         "conditions":"#abdominal",
+         "description":null,
+         "dialog_node":"node_22_1478371371243",
+         "previous_sibling":"node_15_1478370428585"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Are you feeling pain near your kidney, or when you urinate?"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2016-11-05T18:27:07.409Z",
+         "metadata":null,
+         "conditions":"#kidney_stone",
+         "description":null,
+         "dialog_node":"node_15_1478370428585",
+         "previous_sibling":"node_37_1478376422471"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Does this pain come in waves and fluctuate in intensity?"
+         },
+         "parent":"node_15_1478370428585",
+         "context":null,
+         "created":"2016-11-05T18:27:40.661Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_16_1478370461793",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Do you currently have, or feel like you have, a fever?"
+         },
+         "parent":"node_8_1478369030538",
+         "context":null,
+         "created":"2016-11-05T18:04:43.155Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_10_1478369084322",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Do you have back pain?"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2016-11-05T16:36:37.365Z",
+         "metadata":null,
+         "conditions":"#back_pain",
+         "description":null,
+         "dialog_node":"node_1_1478363798421",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Do you have numbness in your lower legs?"
+         },
+         "parent":"node_4_1478368899227",
+         "context":null,
+         "created":"2016-11-05T18:01:56.763Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_5_1478368917917",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Glad to hear it, have a good day!"
+         },
+         "parent":null,
+         "context":null,
+         "created":"2016-11-05T20:07:02.286Z",
+         "metadata":null,
+         "conditions":"#good",
+         "description":null,
+         "dialog_node":"node_37_1478376422471",
+         "previous_sibling":"node_35_1478375428743"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Have you been experiencing weight loss recently?"
+         },
+         "parent":"node_5_1478368917917",
+         "context":null,
+         "created":"2016-11-05T18:03:49.374Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_8_1478369030538",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Have you had this pain for six or more weeks?"
+         },
+         "parent":"node_2_1478364476488",
+         "context":null,
+         "created":"2016-11-05T18:01:38.096Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_4_1478368899227",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Hi. How are you feeling today?"
+         },
+         "parent":null,
+         "context":{
+            "default_counter":0
+         },
+         "created":"2016-11-05T19:50:29.016Z",
+         "metadata":null,
+         "conditions":"conversation_start",
+         "description":null,
+         "dialog_node":"node_35_1478375428743",
+         "previous_sibling":"node_1_1478363798421"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"If you experience a fever or any symptoms associated with a fever, let me know immediately."
+         },
+         "parent":"node_10_1478369084322",
+         "context":null,
+         "created":"2016-11-05T18:06:35.322Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_13_1478369196497",
+         "previous_sibling":"node_12_1478369173706"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Is it difficult and painful for you to urinate, even a small amount?"
+         },
+         "parent":"node_16_1478370461793",
+         "context":null,
+         "created":"2016-11-05T18:28:18.636Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_18_1478370499729",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Is there also a deep, constant pain in or near your side?"
+         },
+         "parent":"node_23_1478371433986",
+         "context":null,
+         "created":"2016-11-05T18:44:23.253Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_25_1478371464420",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Is there a pulsating pain near your belly button?"
+         },
+         "parent":"node_22_1478371371243",
+         "context":null,
+         "created":"2016-11-05T18:43:52.851Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_23_1478371433986",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Is your back pain more severe at night?"
+         },
+         "parent":"node_1_1478363798421",
+         "context":null,
+         "created":"2016-11-05T16:47:55.438Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_2_1478364476488",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Let me know if the pain gets more severe or doesn't go away."
+         },
+         "parent":"node_16_1478370461793",
+         "context":null,
+         "created":"2016-11-05T18:28:20.008Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_19_1478370501201",
+         "previous_sibling":"node_18_1478370499729"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Let me know if your back pain continues for six or more weeks."
+         },
+         "parent":"node_2_1478364476488",
+         "context":null,
+         "created":"2016-11-05T18:01:59.263Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_6_1478368920436",
+         "previous_sibling":"node_4_1478368899227"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Oh, ok"
+         },
+         "parent":"node_1_1478363798421",
+         "context":null,
+         "created":"2016-11-05T18:01:28.079Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_3_1478368889123",
+         "previous_sibling":"node_2_1478364476488"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Oh, ok"
+         },
+         "parent":"node_15_1478370428585",
+         "context":null,
+         "created":"2016-11-05T18:27:42.332Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_17_1478370463521",
+         "previous_sibling":"node_16_1478370461793"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Oh, ok"
+         },
+         "parent":"node_22_1478371371243",
+         "context":null,
+         "created":"2016-11-05T18:43:54.089Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_24_1478371435306",
+         "previous_sibling":"node_23_1478371433986"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Please keep me updated on your back pain if it continues."
+         },
+         "parent":"node_4_1478368899227",
+         "context":null,
+         "created":"2016-11-05T18:03:17.625Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_7_1478368998706",
+         "previous_sibling":"node_5_1478368917917"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Please keep me updated on your back pain if it continues."
+         },
+         "parent":"node_5_1478368917917",
+         "context":null,
+         "created":"2016-11-05T18:04:07.535Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_9_1478369048610",
+         "previous_sibling":"node_8_1478369030538"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Please let me know if that pain continues for more than a few hours."
+         },
+         "parent":"node_25_1478371464420",
+         "context":null,
+         "created":"2016-11-05T18:45:17.163Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_27_1478371518298",
+         "previous_sibling":"node_28_1478371521386"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Please let me know if the pain does not go away in a few hours."
+         },
+         "parent":"node_24_1478371435306",
+         "context":null,
+         "created":"2016-11-05T18:44:25.482Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_26_1478371466674",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Please let me know if you begin to have trouble urinating."
+         },
+         "parent":"node_18_1478370499729",
+         "context":null,
+         "created":"2016-11-05T18:29:14.688Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_21_1478370555888",
+         "previous_sibling":"node_20_1478370554784"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"Please let me know immediately if you begin experiencing weight loss."
+         },
+         "parent":"node_8_1478369030538",
+         "context":null,
+         "created":"2016-11-05T18:05:20.167Z",
+         "metadata":null,
+         "conditions":"#no",
+         "description":null,
+         "dialog_node":"node_11_1478369121202",
+         "previous_sibling":"node_10_1478369084322"
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"You may have a serious medical condition. I am going to contact your primary care provider."
+         },
+         "parent":"node_10_1478369084322",
+         "context":null,
+         "created":"2016-11-05T18:06:12.625Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_12_1478369173706",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"You may have a severe medical condition. I am going to contact your primary care provider."
+         },
+         "parent":"node_25_1478371464420",
+         "context":null,
+         "created":"2016-11-05T18:45:20.194Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_28_1478371521386",
+         "previous_sibling":null
+      },
+      {
+         "go_to":null,
+         "output":{
+            "text":"You may have kidney stones. I am going to contact your primary care provider."
+         },
+         "parent":"node_18_1478370499729",
+         "context":null,
+         "created":"2016-11-05T18:29:13.665Z",
+         "metadata":null,
+         "conditions":"#yes",
+         "description":null,
+         "dialog_node":"node_20_1478370554784",
+         "previous_sibling":null
+      }
+   ],
+   "workspace_id":""
+}
