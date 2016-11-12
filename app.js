@@ -15,18 +15,18 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 var toneAnalyzer = watson.tone_analyzer({
   url: 'https://gateway.watsonplatform.net/tone-analyzer/api/',
-  username: '40441681-14c3-4391-b7ba-12a6cdc5eea4',
-  password: 'yFqXQ87EA1c0',
+  username: '<username>',
+  password: '<password>',
   version_date: '2016-05-19',
   version: 'v3'
 });
 
 // First you need to create a connection to the db
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "baburao@123",
-  database: "nao-rest-db"
+  host: "<host>",
+  user: "<username>",
+  password: "<password>",
+  database: "<database_name>"
 });
 
 // Connect to the db
@@ -78,7 +78,7 @@ app.get("/sendTextEmail/:whytext", urlencodedParser, function(req, res, next){
         service: 'Gmail',
         auth: {
             user: 'projectlola2k16@gmail.com',
-            pass: 'archhack'
+            pass: '<password>'
         }
     });
   var text = 'Hello world from \n\n' + req.params.whytext;
